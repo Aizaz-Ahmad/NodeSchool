@@ -1,0 +1,7 @@
+[{
+  "_id": {
+    "$oid": "60f7e777665357153161eae6"
+  },
+  "email": "admin@nodeschool.com",
+  "password": "$2b$10$A4aACpKlAcRGDc/2OVcNGu3SeP2oxj.ASBjrzhJOakjB9ecNgheYO"
+}]

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "60fe864f536b0be9a9433d32"
+  },
+  "name": "Aizaz",
+  "fathername": "Shakeel",
+  "dob": "1984-02-16",
+  "domicile": "Gujranwala",
+  "contact": "0333-3333333",
+  "address": "Gujranwala",
+  "gender": "Male",
+  "religion": "Islam",
+  "image": "60fe860c536b0be9a9433d31.jpg",
+  "student_id": {
+    "$oid": "60fe860c536b0be9a9433d31"
+  },
+  "applied_at": {
+    "$date": "2021-07-26T09:54:23.357Z"
+  }
+}]

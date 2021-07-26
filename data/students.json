@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "60fe860c536b0be9a9433d31"
+  },
+  "email": "aizazahamd90@gmail.com",
+  "password": "$2b$10$Q2ZPvxi45.J9DMSoqpALV.6GT.sbyhiM3DenucoVqc3Z0HYTahUyO",
+  "isVerified": true,
+  "application_status": "submitted",
+  "createdAt": {
+    "$date": "2021-07-26T09:53:16.312Z"
+  }
+}]

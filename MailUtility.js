@@ -16,8 +16,8 @@ const Mail = require('nodemailer/lib/mailer');
 //   });
 // })();
 class MailUtility {
-  static #username = 'aizazahamd90@gmail.com';
-  static #password = 'Pakistan90@';
+  static #username = 'your_email_address@gmail.com';
+  static #password = 'your_account_password';
   static #transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,

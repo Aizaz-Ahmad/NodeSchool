@@ -49,5 +49,7 @@ Test this Application out by going to the link: <a href='http://nodeschool0.hero
 <li><mark>npm install</mark> to install all required Node Modules</li>
 <li>Inside your MongoDB Atlas Cluster, Create a new Database with the name of 'node_school'. After this import the data into the Collections by using JSON files inside data folder.</li>
 <li>For using Emailing Functioanlity replace your Gmail and Password with Placeholder values inside MailUtility.js!</li>
+<li>Replace your MongoDB URI with placeholder inside .env file.</li>
+<li><code>node index.js</code> to run the Server</li>
 </ol>
 <h2 style="text-align:center;">If you liked the repo then Give it a star ⭐

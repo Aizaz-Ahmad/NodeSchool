@@ -1,0 +1,46 @@
+<main class='container mt-4'>
+  <h2 class='text-center'>Admin Dashboard</h2>
+  <table class='table table-dark table-bordered text-center mt-4'>
+    <thead>
+      <tr>
+        <td colspan='7'><h5>Applications</h5></td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>Father Name</td>
+        <td>Applied At</td>
+        <td>Application Status</td>
+        <td>View Details</td>
+        <td>Approve</td>
+        <td>Reject</td>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each applications as |application|}}
+        <tr class='align-middle'>
+          <td>{{name}}</td>
+          <td>{{fathername}}</td>
+          <td>{{#DateToLocaleDate applied_at}}{{/DateToLocaleDate}}</td>
+          <td>{{toUpperCase application_status}}</td>
+          <td><a
+              href='/admin/application/{{_id}}'
+              class='btn btn-info w-100'
+            >View</a>
+          </td>
+          <td>
+            <a
+              class='btn btn-danger w-100'
+              href='/admin/application/status/{{_id}}/rejected'
+            >Rejected</a>
+          </td>
+          <td>
+            <a
+              class='btn btn-success w-100'
+              href='/admin/application/status/{{_id}}/approved'
+            >Approved</a>
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</main>

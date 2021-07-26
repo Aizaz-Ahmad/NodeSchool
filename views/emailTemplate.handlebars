@@ -1,0 +1,31 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Email Verification</title>
+    <style>
+      body{ font-family:Arial; font-size:16px; } .container{ width:80%; margin:0
+      auto; padding:15px 0px; } .container img{ display:block; margin: 0 auto; }
+      .text-center{ text-align: center; } a.btn{ display: block; margin: 0 auto;
+      padding:10px 20px; width:max-content; text-decoration: none; font-weight:
+      bold; text-align: center; color:white; background-color: rgb(179, 179, 0);
+      border: 1px solid #333; }
+    </style>
+  </head>
+  <body>
+    <main class='container'>
+      <h2 class='text-center' style='margin-top:30px;'>Welcome to NodeSchool</h2>
+      <h3 class='text-center'>Thanks for Registration</h3>
+      <p>Here is your Verification Link, Click on the button to Verify your
+        Email Account</p>
+      <a href='{{baseUrl}}/verify/{{verificationId}}' class='btn'>Verify</a>
+      <p>If the Above Button is not Working, then you can also verify your
+        account by clicking on the Link below</p>
+      <a
+        href='{{baseUrl}}/verify/{{verificationId}}'
+        class='text-center'
+      >{{baseUrl}}/verify/{{verificationId}}</a>
+    </main>
+  </body>
+</html>

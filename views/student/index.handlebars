@@ -1,0 +1,18 @@
+<main class='container my-5'>
+  <div class="row justify-content-center">
+    <div class="col-12 col-sm-10 col-md-8 col-lg-7">
+      <p class='lead'>Application Status:
+        {{#statusBadge student.application_status}}{{/statusBadge}}
+      </p>
+      {{#if error}}
+        <div class='alert alert-danger mt-3'>{{message}}</div>
+      {{/if}}
+      {{#applicationForm student.application_status}}
+        {{>application}}
+      {{/applicationForm}}
+      {{#if application}}
+        {{>submitted_application application}} 
+      {{/if}} 
+    </div>
+  </div>
+</main>
